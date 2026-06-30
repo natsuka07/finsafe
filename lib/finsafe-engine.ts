@@ -1,8 +1,4 @@
-// ─────────────────────────────────────────────────────────────
-// FINSAFE MATH ENGINE
-// Analisis Keuangan via Analisis Vektor Keuangan
-// ─────────────────────────────────────────────────────────────
-
+// migrasi dari python, terimakasih claude
 export const FEATURE_NAMES = [
   "Pengeluaran > Pendapatan",
   "Stress Finansial Tinggi",
@@ -204,7 +200,7 @@ function getRecommendations(score: number, f: number[]): string[] {
   const recs: string[] = [];
   if (f[0] > 0.4) recs.push("Catat semua pengeluaran harian secara detail");
   if (f[2] > 0.4) recs.push("Batasi frekuensi top-up dompet digital");
-  if (f[1] > 0.5) recs.push("Hubungi Into The Light Indonesia (119 ext 8)");
+  if (f[1] > 0.5) recs.push("Hubungi Into The Light Indonesia");
   if (f[5] > 0) recs.push("Hubungi bank untuk verifikasi transaksi mencurigakan");
   if (f[6] > 0.6) recs.push("Pertimbangkan konsultasi dengan perencana keuangan");
   if (score >= 70) recs.push("Bicara ke orang terpercaya tentang kondisi keuangan");

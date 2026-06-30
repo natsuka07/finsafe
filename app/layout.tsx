@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FINSAFE — Deteksi Risiko Judi Online",
+  title: "FINSAFE — Analisis Keuangan Terhadap Kesehatan Finansial",
   description: "Sistem analisis pola keuangan berbasis vektor fitur, LU Decomposition, dan diagonalisasi matriks korelasi.",
 };
 

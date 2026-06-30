@@ -36,7 +36,7 @@ export default function Home() {
       setLogLines([...lines]);
       await delay(ms);
     };
-    await addLog("> inisialisasi FINSAFE engine v1.0...");
+    await addLog("> inisialisasi FINSAFE engine v1.1...");
     await addLog("> membangun vektor fitur f \u2208 \u211d\u2078...", 300);
     await addLog("> menyusun matriks A \u2208 \u211d\u2078\u02e3\u2078...", 200);
     await addLog("> menjalankan LU Decomposition...", 400);
@@ -77,7 +77,7 @@ export default function Home() {
             FIN<span style={{ color: "var(--green)" }}>SAFE</span>
           </h1>
           <p style={{ fontFamily: "var(--mono)", fontSize: 12, color: "var(--text2)", marginTop: "0.5rem", maxWidth: 520, lineHeight: 1.7 }}>
-            Deteksi potensi risiko judi online melalui analisis pola perilaku keuangan — menggunakan vektor fitur, SPL + LU Decomposition, dot product, dan diagonalisasi matriks korelasi.
+            Deteksi Kesehatan Finansial melalui analisis pola perilaku keuangan — menggunakan vektor fitur, SPL + LU Decomposition, dot product, dan diagonalisasi matriks korelasi.
           </p>
         </header>
 

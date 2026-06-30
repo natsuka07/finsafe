@@ -1,6 +1,6 @@
 // ─────────────────────────────────────────────────────────────
 // FINSAFE MATH ENGINE
-// Deteksi Potensi Judi Online via Analisis Vektor Keuangan
+// Analisis Keuangan via Analisis Vektor Keuangan
 // ─────────────────────────────────────────────────────────────
 
 export const FEATURE_NAMES = [
